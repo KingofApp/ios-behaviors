@@ -8,6 +8,12 @@ This code may only be used under the MIT license.
 <link rel="import" href="../iron-behaviors/iron-button-state.html">
 
 <script>
+  /**
+   * The `IosButtonBehavior` implements shared behavior for iOS design buttons
+   * such as [ios-button](ios-button).
+   *
+   * @polymerBehavior Polymer.IosButtonBehavior
+   */
   Polymer.IosButtonBehaviorImpl = {
     hostAttributes: {
       role: 'button',
@@ -15,6 +21,7 @@ This code may only be used under the MIT license.
     }
   };
 
+  /** @polymerBehavior */
   Polymer.IosButtonBehavior = [
     Polymer.IronButtonState,
     Polymer.IronControlState,
